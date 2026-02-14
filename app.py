@@ -17,7 +17,7 @@ MASS_HEADER_PRICE = "Harga Ritel (Mata Uang Lokal)"
 
 # Pricelist: header minimal yang kita cari
 PL_HEADER_SKU_CANDIDATES = ["KODEBARANG", "KODE BARANG", "SKU", "SKU NO", "SKU_NO", "KODEBARANG "]
-PL_PRICE_COL_TIKTOK = "M3"
+PL_PRICE_COL_TIKTOK = "M4"
 PL_PRICE_COL_SHOPEE = "M4"
 
 # Addon mapping: header yang diharapkan (boleh lebih dari 1 kandidat)
@@ -583,4 +583,5 @@ if process:
             data=rep_bytes,
             file_name="changes_report.xlsx",
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+
         )
