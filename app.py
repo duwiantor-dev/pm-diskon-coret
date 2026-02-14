@@ -379,7 +379,7 @@ def compute_new_price_for_row(
     if not pl:
         return None, "Base SKU tidak ada di Pricelist"
 
-    price_key = "M3" if platform == "tiktok" else "M4"
+    price_key = "M4" if platform == "tiktok" else "M4"
     base_price = pl.get(price_key)
     if base_price is None:
         return None, f"Harga {price_key} kosong di Pricelist"
@@ -585,3 +585,4 @@ if process:
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
 
         )
+
