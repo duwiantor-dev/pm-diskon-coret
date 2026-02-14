@@ -424,8 +424,8 @@ def workbook_to_bytes(wb) -> bytes:
 # =========================
 # UI
 # =========================
-st.set_page_config(page_title="Web App Update Harga", layout="wide")
-st.title("Web App Update Harga")
+st.set_page_config(page_title="Harga Coret PM", layout="wide")
+st.title("Harga Coret Powermerchant")
 
 # Upload row: 3 columns (bagusan yang sejajar)
 c1, c2, c3 = st.columns(3)
@@ -585,4 +585,5 @@ if process:
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
 
         )
+
 
